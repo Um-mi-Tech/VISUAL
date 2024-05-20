@@ -17,15 +17,14 @@
     list-style: none;
     background-color: rgba(222, 184, 135, 0.719);
     align-content: center;
+    padding: 0 50px 0 50px;
 
 }
 
 .section{
-   
-    margin: 0 40px 0 40px;
     height: 100%;
-    width: 98%;
-   background-color:#f6f6f6;
+    width: 100%;
+    background-color:#f6f6f6;
 }
 
 
@@ -54,23 +53,24 @@ header{
 
    /* NAVIGATION LIST */
 .navbar{
-    
-    align-self: center;
-    list-style: none;
+
+padding: 10px;
+
 }
 
 ul{
-    
-    margin: 20px;
+    font-size: 20px;
+    margin: 10px;
     gap: 50px;
-    list-style: none;
     display: flex;
-    font-size: 22px;
+    list-style: none;
+    
+    
 }
 li{
   
     color: rgba(42, 42, 116, 0.89);
-    align-content: center;
+
 }
 
   /* LOGIN & SIGN UP */
@@ -80,19 +80,19 @@ li{
     color: rgba(8, 8, 51, 0.822);
     display: flex;
     gap: 40px;
-    padding: 20px;
+    padding: 10px;
  }
 
  .signing h1{
-    margin-top: 10px;
+    
  }
 
  .signing h2{
-    width: 130px;
-    border: 2px solid rgba(113, 9, 250, 0.685);
-    padding: 8px;
-    text-align: center;
+    border: 1px solid rgba(0, 0, 255, 0.603);
     border-radius: 30px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
 }
 
      /* paragraph */
@@ -105,10 +105,10 @@ li{
 
 
 img{
-    margin-top: 200px;
-    width:700px ;
-    height: 400px;
-    border-radius: 300px 300px 0 0 ;
+    margin-top: 140px;
+    width:750px ;
+    height: 500px;
+    border-radius: 800px 800px 0 0 ;
 
 }
 
