@@ -30,7 +30,8 @@
 
 header{
     display: flex;
-    gap:450px;
+    padding: 20px;
+    justify-content: space-between;
 
 }
   
@@ -59,7 +60,7 @@ padding: 10px;
 }
 
 ul{
-    font-size: 20px;
+    font-size: 22px;
     margin: 10px;
     gap: 50px;
     display: flex;
@@ -79,19 +80,21 @@ li{
     text-transform: uppercase;
     color: rgba(8, 8, 51, 0.822);
     display: flex;
-    gap: 40px;
-    padding: 10px;
+   gap:30px
+   
  }
 
  .signing h1{
-    
+    margin: 20px;
  }
 
  .signing h2{
-    border: 1px solid rgba(0, 0, 255, 0.603);
+    margin: 15px;
+    border: 3px solid rgba(18, 89, 221, 0.918);
     border-radius: 30px;
-    padding: 10px;
-    margin: 20px;
+     width: 120px;
+     padding: 5px;
+     height: 40px;
     text-align: center;
 }
 
